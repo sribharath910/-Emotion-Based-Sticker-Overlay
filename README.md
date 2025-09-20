@@ -17,7 +17,7 @@ An interactive real-time application that detects human emotions using a CNN mod
 ---
 
 ## Project Structure
-
+```bash
 Emotion-Based-Sticker-Overlay/
 │
 ├── stickers/ # Folder containing PNG stickers
@@ -34,7 +34,7 @@ Emotion-Based-Sticker-Overlay/
 ├── demo_output.avi # (Optional) demo video output
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -46,9 +46,9 @@ Emotion-Based-Sticker-Overlay/
    cd Emotion-Based-Sticker-Overlay
    ```
 2. Install dependencies
-```bash===
-pip install -r requirements.txt
-```
+   ```bash===
+   pip install -r requirements.txt
+   ```
 3. Ensure you have all stickers in the /stickers folder and emotion_model.h5 in project root.
 
 
@@ -61,3 +61,12 @@ The webcam window will open showing sticker overlays based on your emotion.
 Press q to exit.
 
 If enabled, the demo video will be saved as demo_output.avi
+
+## Dependencies
+
+Python 3.8+
+OpenCV
+MediaPipe
+TensorFlow / Keras
+NumPy
+
